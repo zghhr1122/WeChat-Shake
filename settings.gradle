@@ -1,0 +1,2 @@
+rootProject.name = "Shake-UI"
+include ':app'

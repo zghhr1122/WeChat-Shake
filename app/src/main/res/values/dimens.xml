@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="listitem_padding">8dp</dimen>
+    <dimen name="listitem_top">12dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+
+</resources>
