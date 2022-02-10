@@ -1,6 +1,7 @@
 package com.shou.shake_ui.android;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -11,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.chx.voiseplayingicon.MainActivity;
 import com.shou.shake_ui.R;
 
 public class TestActivity extends Activity {
@@ -63,6 +66,12 @@ public class TestActivity extends Activity {
 		setResultVisible(false);
 		showShakeLoading(false);
 		initShake();
+		findViewById(R.id.shakeImgDown).setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(TestActivity.this, MainActivity.class));
+			}
+		});
 	}
 	
 	private void initShake() {

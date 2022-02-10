@@ -1,2 +1,3 @@
 rootProject.name = "Shake-UI"
 include ':app'
+include ':VoisePlay'

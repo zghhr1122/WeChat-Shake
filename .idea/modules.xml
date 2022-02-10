@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shake-UI.iml" filepath="$PROJECT_DIR$/.idea/modules/Shake-UI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VoisePlay/Shake-UI.VoisePlay.iml" filepath="$PROJECT_DIR$/.idea/modules/VoisePlay/Shake-UI.VoisePlay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shake-UI.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shake-UI.app.iml" />
     </modules>
   </component>
